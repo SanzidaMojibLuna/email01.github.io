@@ -1,0 +1,100 @@
+body{
+    background: url(../assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+form{
+    display: block;
+    padding-bottom: 20px;
+}
+label{
+    margin-right: 50px;
+}
+
+.full_screen {
+    background: white;
+    display: block;
+    margin: 50px 100px 100px 100px;
+    padding: 50px;
+    opacity: 50%;
+}
+.full_screen-signup{
+    background: white;
+    display: block;
+    margin: 30px;
+    padding: 50px;
+    opacity: 50%;
+
+}
+.full_screen img{
+    background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -50px;
+}
+.admin, .admin-signup, .admin-reset-pass{
+    text-align: center;
+}
+.signup-form{
+    padding : 20px;
+
+}
+.login-form input[type=text]  {
+    width: 80%;
+    padding:10px;
+    border: 2px solid black;
+}
+.signup-form input[type=text],input[type="date"], .password-form input[type=text] {
+    width: 80%;
+    padding:10px;
+    border: 2px solid black;
+}
+.signup-form #mail{
+    margin-left: 38px;
+}
+.signup-form #bday{
+    margin-left: 15px;
+}
+.login-form input[type=submit] , .password-form input[type=submit]{
+    width: 30%;
+    padding: 10px;
+    margin-left: 350px;
+    margin-right: 350px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    background: green;  
+}
+.signup-form input[type= submit] {
+    width: 10%;
+    padding: 10px;
+    margin-left: 950px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    background: green;  
+}
+input[type=submit] :hover {
+
+    background: greenyellow; 
+}
+.frst-link{
+    float: left;
+    width: 50%;
+    font-size: 15px;
+}
+.sec-link{
+    float: right;
+    width: 50%;
+    text-align: end;
+    font-size: 15px;
+}
+/*input[type="submit" i] {
+    x;
+}
