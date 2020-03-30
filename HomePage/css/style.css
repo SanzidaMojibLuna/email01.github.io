@@ -1,0 +1,403 @@
+body{
+    background: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    align-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: auto;
+    margin: 0px ;
+    padding: 0px;
+    align-content: center;
+    
+
+}
+.container-full{
+    width: 100%;
+    margin: 0px ;
+    background: url("../assets/hero-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-content: center;
+    display: inline;
+    float: left;
+    padding: 50px 0px 50px 0px;
+
+}
+
+.logo-div{
+    width: 25%;
+    height: 100px;
+    float: left;
+    display: inline block;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    align-content: center;
+    margin-left: 200px;
+    text-align: center;
+
+}
+.main-menu{
+    width: auto;
+    height: 100px;
+    float: left;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline block;
+    float: left;
+    padding-top: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color : black;
+    font-size: 15px;
+    margin-right: 25px;
+    border: 2px solid transparent;
+    padding: 2px;
+    
+}
+ul li a:hover{
+    
+    color : white;
+    border: 2px solid #6879D5;
+    background: #6879D5;
+   
+    
+}
+.social-icon{
+    width: 25%;
+    height: 100px;
+    float: left;
+    padding-top: 10px;
+
+}
+.social{
+    padding: 1.4rem 1.4rem;
+}
+.social i{
+    padding : 0 0.5rem;
+    padding-top: 15px;
+}
+.social i:hover{
+    color: #a1c4fd;
+}
+.social a{
+    text-decoration: none;
+    font-size: 15px;
+}
+.social a:hover{
+    color: #a1c4fd;
+}
+
+.hero{
+    background: black;
+    opacity: 60%;
+    color : white;
+    width: 40%;
+    margin-left: 200px;
+    text-align: center;
+    padding: 30px 0px 50px 0px;
+}
+.hero-btn1{
+    text-decoration: none;
+    font-size: 17px;
+    border:1px solid chartreuse;
+    border-radius: 5px;
+    padding: 7px;
+    color: white;
+    background: chartreuse;
+    margin: 15px;
+    
+}
+.hero-btn1:hover{
+    background: transparent;
+    color: chartreuse;
+}
+.container-full-feature{
+    width: calc(100% - 200px);
+    margin: 0px ;
+    align-content: center;
+    display: inline;
+    float: left;
+    margin-left:100px ; 
+    
+}
+
+.fas.fa-check-circle{
+    color : #6879D5;
+    font-size: 50px;
+}
+
+.fas.fa-map-marker-alt{
+    color :white;
+    background: #059386;
+    font-size: 30px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #059386;
+    border-radius: 50%;
+    padding : 10px; 
+
+}
+.fas.fa-dollar-sign{
+    color :white;
+    background: #4BB050;
+    font-size: 30px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #4BB050;
+    border-radius: 50%;
+    padding : 10px; 
+
+}
+.fas.fa-user-plus{
+    color :white;
+    background: #A5DE66;
+    font-size: 30px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #A5DE66;
+    border-radius: 50%;
+    padding : 10px; 
+
+}
+.far.fa-dot-circle{
+    color: #4BB050;
+    font-weight: 500;
+
+}
+
+.feature{
+    display: inline block;
+    float: left;
+    border: 2px solid black;
+    color : black;
+    width: 18%;
+    text-align: center;
+    padding: 10px;
+    margin: 30px 25px 30px 25px;
+    align-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+
+}
+.feature:hover{
+    box-shadow: 0px 0px 25px #888888;
+    
+}
+
+.feature h2{
+    font-size: 25px;
+}
+
+.feature-btn{
+    text-decoration: none;
+    font-size: 17px;
+    border:1px solid green;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    background: green;
+    margin: 15px 20px 15px 15px;
+
+}
+.feature-btn:hover{
+    color: green;
+    background: transparent;
+
+}
+.feature1{
+    display: inline block;
+    background: #B8CCD5;
+    float: left;
+    width: 43%;
+    text-align: center;
+    padding: 10px;
+    margin: 30px 25px 30px 25px;
+    
+}
+.def{
+    text-align: left;
+    font-size: 15px;
+    padding : 0px 30px 20px 30px;
+}
+.feature-btn1{
+    text-decoration: none;
+    font-size: 17px;
+    border:1px solid green;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    background: green;
+    text-align: right;
+    float: left;
+    margin-top: -30px;
+    margin-left: 35px;
+    margin-bottom: 20px;
+
+}
+.feature-btn1:hover{
+    color: green;
+    background: transparent;
+
+}
+.container-full-blog{
+    width: calc(100% - 200px);
+    margin: 0px ;
+    align-content: center;
+    display: inline;
+    float: left;
+    margin-left:100px ; 
+    
+}
+.container-full-blog h1{
+    color: #0A434D;
+    text-align: center;
+}
+.blog1{
+    display: inline block;
+    float: left;
+    width: 43%;
+    text-align: center;
+    padding: 10px;
+    margin: 30px 25px 30px 25px;
+    
+}
+.blog1 h2{
+    color: #0A434D;
+    text-align: left;
+    font-size: 20px;
+
+}
+.excert{
+    text-align: left;
+    font-size: 15px;
+}
+.blog-btn1{
+    text-decoration: none;
+    font-size: 15px;
+    border:1px solid green;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    background: green;
+    text-align: right;
+    float: left;
+}
+.blog-btn1:hover{
+    color: green;
+    background: transparent;
+
+}
+.container-static{
+    width: 100%;
+    margin: 0px ;
+    background: #DCDCDC;
+    align-content: center;
+    display: inline;
+    float: left;
+    padding: 30px 0px 30px 0px;
+
+}
+.stat{
+    font-size: 18px;
+    text-align: center;
+}
+.container-testmony{
+    width: 100%;
+    margin: 0px ;
+    background: white;
+    align-content: center;
+    display: inline;
+    float: left;
+    padding: 30px 0px 30px 0px;
+
+}
+.testmony{
+    text-align: center;
+}
+.container-testmony p{
+    text-align: center;
+    font-size: 12px;
+}
+.fas.fa-star{
+    color: #03B478;
+    font-size: 30px;
+}
+.star{
+    text-align: center;
+}
+.container-company{
+    width: 100%;
+    margin: 0px ;
+    background: #808080;
+    align-content: center;
+    display: inline;
+    float: left;
+    padding: 30px 0px 30px 0px;
+
+}
+.company{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.company img{
+    width: 200px;
+    margin: 0px 30px 0px 30px;
+}
+.container-footer{
+    width: 100%;
+    margin: 0px ;
+    background: #032E3A;
+    align-content: center;
+    display: inline;
+    float: left;
+    padding: 5px 0px 5px 0px;
+
+}
+.footer1{
+    display: inline block;
+    float: left;
+    width: 43%;
+    padding: 10px;
+    margin: 30px 25px 30px 25px;
+    padding-left: 15%;
+}
+.footer2{
+    display: inline block;
+    float: left;
+    width: 43%;
+    padding: 10px;
+    margin: 30px 25px 30px 25px;
+    margin-left: -20%;
+}
+.container-footer h3{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+.far.fa-star{
+    background: #B7DA7B;
+    color: white;
+    border: 1px solid #B7DA7B;
+    padding: 1px;
+    margin: 2px;
+}
+
+
+
