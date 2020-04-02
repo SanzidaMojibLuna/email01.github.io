@@ -1,0 +1,337 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+header{
+    background-color: #f6f9f9;
+    padding: 20px 0px;
+    width: 100%;
+    float: left;
+
+}
+.logo{
+    width: 40%;
+    float: left;
+
+}
+.menu{
+    width: 60%;
+    float: left;
+
+}
+nav ul {
+    list-style: none;
+
+}
+nav ul li {
+    display: inline-block;
+    margin: 10px 30px;
+
+}
+nav ul li a {
+    color: #2196F3;
+    text-decoration: none;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+/* banner */
+
+.banner{
+    background: url(../assests/banner.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    float: left;
+
+}
+.banner-content{
+    padding-top: 200px;
+    padding-bottom: 80px;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.banner-content h2{
+    font-size: 120px;
+    color: white;
+    font-weight: bold;
+
+}
+.banner-content p{
+    font-size: 20px;
+    color: white;
+    font-weight: 300;
+
+}
+.banner-content span{
+    border-bottom: 2px solid #15a4fa;
+    display: block;
+    width: 83%;
+    margin: 20px auto;
+
+}
+
+.btn-cstm{
+    background: transparent;
+    border: 1px solid #15a4fa;
+    padding: 12px 24px;
+    color: white;
+    margin: 10% 0;
+
+
+}
+
+.btn-cstm:hover {
+    background-color: #15a4fa;
+  }
+.feature01{
+    width: 100%;
+    float: left;
+    background: #f6f9f9;
+
+}
+.feature01-content{
+    padding: 70px 40px;
+
+}
+.feature01-content h2,.gallery-content h2{
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #2d3950;
+
+}
+.feature01-content p{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 100;
+    color:#a9a9a9;
+    line-height: 30px;
+    
+}
+.feature02{
+    width: 100%;
+    float: left;
+    background: white;
+    padding-bottom: 70px;
+
+}
+.feature02-content{
+    width: 75%;
+    padding : 70px 140px;
+    text-align: center;   
+
+}
+.single-feature{
+    width: 28%;
+    margin : 0 20px;
+    text-align: center;
+    display: inline;
+    float: left;
+}
+.single-feature i{
+    font-size: 50px;
+    color: white;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48baff+1,48baff+50,5fc3ff+50,5fc3ff+100 */
+background: #48baff; /* Old browsers */
+background: -moz-linear-gradient(left,  #48baff 1%, #48baff 50%, #5fc3ff 50%, #5fc3ff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #48baff 1%,#48baff 50%,#5fc3ff 50%,#5fc3ff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #48baff 1%,#48baff 50%,#5fc3ff 50%,#5fc3ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48baff', endColorstr='#5fc3ff',GradientType=1 ); /* IE6-9 */
+
+padding : 30px 40px;
+border-radius: 5%;
+margin-bottom: 10px;
+
+}
+.single-feature h2{
+    font-size: 19px;
+    font-weight: 200;
+    color: #454e61;
+    margin-bottom: 10px;
+}
+.single-feature, .gallery-content p{
+    font-size: 15px;
+    text-align: center;
+    font-weight: 100;
+    color:#a9a9a9;
+    line-height: 20px;
+}
+.gallery {
+    width: 100%;
+    float: left;
+    background: #f6f9f9;
+    padding : 50px 0;
+    padding-bottom: 150px;
+
+}
+.first_row{
+    padding-top: 50px;
+    width: 85%;
+    margin : 0 75px;
+    text-align: center;
+    display: inline;
+    float: left;
+    margin-bottom: -30px;
+
+}
+.first_row img {
+    height: 250px;
+    width: 300px;
+    padding: 10px;
+    transition: transform .5s;
+}
+.first_row img:hover{
+    transform: scale(1.2); 
+}
+.contact{
+    width: 100%;
+    float: left;
+    background: linear-gradient(
+        rgba(69,78,97, .7), 
+        rgba(69,78,97, .7)),
+        url( "../assests/email_bg.png");
+    
+    padding : 50px 0;
+
+}
+.contact-content{
+    width: 75%;
+    padding : 70px 140px;
+    text-align: center;  
+
+}
+
+.contact-content h2{
+    font-size: 40px;
+    font-weight: 200;
+    color: white;
+    margin-bottom: 10px;
+}
+.contact-content p{
+    font-size: 15px;
+    text-align: center;
+    font-weight: 100;
+    color:#a9a9a9;
+    line-height: 20px;
+}
+input[type=text] {
+
+    background-color: transparent;
+    color: white;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    text-align: left;
+    vertical-align: top;
+    float: left; 
+  }
+  input#message{
+      height: 200px;
+      text-align: start;
+  }
+
+  input[type=text], select, textarea {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    background: transparent;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: transparent;
+    color: white;
+    padding: 12px 36px;
+    border: 2px solid #15a4fa;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    font-size: 15px;
+    margin-left: 200px;
+
+  }
+  
+  input[type=submit]:hover {
+    background-color: #15a4fa;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 84%;
+    margin-top: 6px;
+  }
+  .col-50{
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    font-family: 'Lato',sans-serif;
+    color:white;
+
+  }
+  .contact-form{
+      padding-top: 30px;
+      padding-left: 100px;
+  }
+  footer{
+      background: white;
+      width: 100%;
+      margin: 0px;
+      padding: 0px;
+  }
+
+  .footer-content01{
+      width: 50%;
+      float: left;
+      padding: 30px 0 20px 0;;
+      font-family: 'Lato',sans-serif;
+      font-size: 18px;
+      
+
+  }
+  .footer-content02{
+    width: 20%;
+    float: right;
+    padding: 20px 0;
+    
+    font-family: 'Lato',sans-serif;
+    font-size: 15px;
+    
+}
+.footer-content02 i{
+    color: white;
+    background: #15a4fa;
+    border: 1px solid #15a4fa;
+    padding : 10px;
+    margin: 2px;
+
+}
+.footer-content02 i:hover{
+    color: #15a4fa;
+    background: transparent;
+    border: 1px solid #15a4fa;
+
+}
+
+  
+  
+  
