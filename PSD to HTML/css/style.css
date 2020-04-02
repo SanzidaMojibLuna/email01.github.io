@@ -93,6 +93,19 @@ nav ul li a {
 .btn-cstm:hover {
     background-color: #15a4fa;
   }
+  .arrow{
+    padding-bottom: 80px;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+
+  }
+
+  .fas.fa-chevron-down{
+      color: white;
+      font-size: 20px;
+
+  }
 .feature01{
     width: 100%;
     float: left;
